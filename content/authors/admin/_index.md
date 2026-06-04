@@ -88,7 +88,7 @@ work:
     date_end: 2025-05-01
     summary: |
       Talking-head video anonymization with [Dr. Antitza Dantcheva](https://scholar.google.com/citations?user=ZMggPHMAAAAJ).
-      Region-based GNN for facial treatment planning (2,000+ expert annotations) with Dr. Clémentine Vincent; StyleGAN3 inversion for controllable identity manipulation.
+      Region-based GNN for facial treatment planning (2,000+ expert annotations) with [Dr. Clémentine Vincent](https://www.centre-maxillo-facial-hyerois.fr/equipe/dr-vincent/).
   - position: Business Intelligence Engineer Intern
     company_name: Amazon
     company_url: 'https://www.amazon.it/'
@@ -104,7 +104,7 @@ work:
     date_start: 2022-07-01
     date_end: 2022-09-01
     summary: |
-      Business Intelligence Team under [Mustafa Kaynak](https://www.linkedin.com/in/mustafa-kaynak-0b2496112/).
+      Member of Business Intelligence Team under [Mustafa Kaynak](https://www.linkedin.com/in/mustafa-kaynak-0b2496112/).
 ---
 
 ## About Me
