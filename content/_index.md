@@ -19,7 +19,9 @@ sections:
     design:
       css_class: dark
       background:
-        color: '#2a3544'
+        gradient_start: '#242528'
+        gradient_end: '#2d3948'
+        gradient_angle: 180
 
   - block: markdown
     id: highlights
