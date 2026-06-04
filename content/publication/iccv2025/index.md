@@ -6,8 +6,8 @@ title: "Now You See Me, Now You Don't: A Unified Framework for Expression Consis
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Andrea Tangherloni
-  - Antitza Dantcheva
+  - andrea-tangherloni
+  - antitza-dantcheva
 
 # Author notes (optional)
 author_notes:
@@ -21,14 +21,12 @@ doi: ''
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+# Publication type (CSL). Workshop papers in ICCV proceedings use paper-conference.
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops*
-publication_short: In *ICCV 2025 · CV4BIOM*
+publication: In *IEEE/CVF International Conference on Computer Vision (ICCV) Workshops — Computer Vision for Biometrics, Identity & Behaviour (CV4BIOM)*
+publication_short: In *ICCV 2025 Workshop (CV4BIOM)*
 
 abstract: Face video anonymization is aimed at privacy preservation while allowing for the analysis of videos in a number of computer vision downstream tasks such as expression recognition, people tracking, and action recognition. We propose a novel unified framework referred to as AnonNET, streamlined to de-identify facial videos while preserving age, gender, race, pose, and expression of the original video. Specifically, we inpaint faces by a diffusion-based generative model guided by high-level attribute recognition and motion-aware expression transfer. We then animate de-identified faces by video-driven animation, which accepts the de-identified face and the original video as input. Extensive experiments on VoxCeleb2, CelebV-HQ, and HDTF demonstrate the effectiveness of AnonNET in obfuscating identity while retaining visual realism and temporal consistency.
 
@@ -46,12 +44,14 @@ url_slides: ''
 url_source: ''
 url_video: ''
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# Featured image (featured.gif in this folder; use .gif to keep animation)
 image:
+  filename: featured.gif
   caption: 'AnonNET'
   focal_point: ''
   preview_only: false
 ---
 
 Oral presentation at the **IEEE/CVF ICCV 2025** workshop on Computer Vision for Biometrics, Identity & Behaviour (**CV4BIOM**), Hawaii, USA.
+
+![AnonNET demo](featured.gif)
