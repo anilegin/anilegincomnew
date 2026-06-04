@@ -8,18 +8,6 @@ design:
   spacing: "5rem"
 
 sections:
-  - block: hero
-    demo: false
-    content:
-      title: <br/><br/>Computer Vision · Generative AI · Robotics
-    design:
-      background:
-        image:
-          filename: background.jpeg
-          filters:
-            brightness: 0.45
-        text_color_light: true
-
   - block: resume-biography-3
     id: about
     content:
@@ -31,7 +19,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: '#242424'
+        color: '#2a3544'
 
   - block: markdown
     id: highlights
@@ -39,9 +27,11 @@ sections:
       title: Highlights
       text: |-
         - **Feb 2026** — Research assistant at [VRAI Lab](https://vrai.dii.univpm.it/): multi-view video synchronization and applied vision for color analysis.
-        - **ICCV 2025** — Oral at CV4BIOM on [talking-head video anonymization](/publication/iccv2025/) (INRIA STARS).
+        - **Oct 2025** — Oral at CV4BIOM ([ICCV 2025](publication/iccv2025/)) on [talking-head video anonymization](publication/iccv2025/) (INRIA STARS).
         - **2024–2025** — AI research intern at [INRIA STARS](https://team.inria.fr/stars/): video anonymization, facial treatment GNNs, and StyleGAN3 identity control.
-        - **MSc** — Artificial Intelligence and Robotics at [Sapienza University](https://www.uniroma1.it/); **BSc** — CS & AI at [Bocconi University](https://www.unibocconi.it/).
+        - **Jun–Dec 2023** — Business Intelligence Engineer Intern at [Amazon](https://www.amazon.it/): customer analytics, SQL dashboards, and pricing insights.
+        - **MSc** — Artificial Intelligence and Robotics at [Sapienza University](https://www.uniroma1.it/).
+        - **BSc** — Computer Science and Artificial Intelligence at [Bocconi University](https://www.unibocconi.it/).
     design:
       columns: '1'
 
